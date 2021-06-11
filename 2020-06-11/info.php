@@ -1,11 +1,36 @@
 <?php
 
-//variaveis
+/*
+=  operador de atribuição
+== operador de igualdade
+=== 
 
-$idade = 20;
-$nome = "Gabriel";
-$time = "Corinthians";
-$opcao = "idade";
-var_dump($$opcao);
+operadores matemáticos:
++ adição
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão (resto da divisão inteira)
+
+operadores aritimeticos (boolean):
+<   menor
+>   maior
+<=  menor ou igual
+>=  maior ou igual
+==  valor
+=== totamente igual
+!=  valores diferentes
+!== tem alguma diferença (valor ou tipo)
+
+operadores lógicos
+AND &&
+OR ||
+NOT !
+
+*/
+
+$nota = 7.5;
+$freq = 75;
+
 
 ?>
