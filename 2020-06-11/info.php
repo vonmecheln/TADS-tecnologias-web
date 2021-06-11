@@ -1,45 +1,19 @@
 <?php
 
-/*
-if
-switch
-operador ternário ?:
-*/
+$vetor1 = array();
 
-$nota = 7.5;
-$freq = 75;
-$recuperacao = 80;
+$vetor1[] = "a";
+$vetor1[] = "b";
+$vetor1[] = "c";
+$vetor1[] = "d";
+$vetor1[] = "d";
+$vetor1[] = "d";
+$vetor1[] = "d";
+$vetor1[] = 20;
 
-/*
-if( ($nota >= 7) && ($freq >= 70)  ){
-    echo "Aprovado";
-} else if($recuperacao > 7.5 )  {
-    echo "Aprovado por recuperação";
-} else {
-    echo "Reprovado";
-}
-*/
-
-/*
-$letra = '1'; // === == 
-
-switch ($letra) {
-    case 1:
-        echo "Sala 50";
-        break;
-    case 2:
-        echo "Sala 51";
-        break;
-    default:
-        echo "Palestra no auditório";
-        break;
+foreach ($vetor1 as $elemento) {
+   echo "$elemento | ";
 }
 
-*/
-
-
-$resultado = ($nota >= 7) && ($freq >= 70) ? "Aprovado" : "Reprovado";
-
-echo $resultado;
 
 ?>
