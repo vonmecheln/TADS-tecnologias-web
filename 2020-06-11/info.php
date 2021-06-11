@@ -1,36 +1,45 @@
 <?php
 
 /*
-=  operador de atribuição
-== operador de igualdade
-=== 
-
-operadores matemáticos:
-+ adição
-- subtração
-* multiplicação
-/ divisão
-% resto da divisão (resto da divisão inteira)
-
-operadores aritimeticos (boolean):
-<   menor
->   maior
-<=  menor ou igual
->=  maior ou igual
-==  valor
-=== totamente igual
-!=  valores diferentes
-!== tem alguma diferença (valor ou tipo)
-
-operadores lógicos
-AND &&
-OR ||
-NOT !
-
+if
+switch
+operador ternário ?:
 */
 
 $nota = 7.5;
 $freq = 75;
+$recuperacao = 80;
 
+/*
+if( ($nota >= 7) && ($freq >= 70)  ){
+    echo "Aprovado";
+} else if($recuperacao > 7.5 )  {
+    echo "Aprovado por recuperação";
+} else {
+    echo "Reprovado";
+}
+*/
+
+/*
+$letra = '1'; // === == 
+
+switch ($letra) {
+    case 1:
+        echo "Sala 50";
+        break;
+    case 2:
+        echo "Sala 51";
+        break;
+    default:
+        echo "Palestra no auditório";
+        break;
+}
+
+*/
+
+
+$resultado = ($nota >= 7) && ($freq >= 70) ? "Aprovado" : "Reprovado";
+
+echo $resultado;
 
 ?>
